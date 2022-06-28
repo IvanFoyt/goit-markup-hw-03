@@ -74,6 +74,7 @@ ul {
 
 nav{
   display: flex;
+  align-items: center;
 }
 
 a {
@@ -101,8 +102,6 @@ button {
   font-size: 26px;
   line-height: 1.19;
   margin-right: 93px;
-  margin-top: 20px;
-  
 }
 
 .logo .accent {
@@ -147,6 +146,13 @@ button {
    padding-top: 32px;
   padding-bottom: 32px;
 }
+
+.active-page{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--accent-color);
+  }
 
 .menu-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -390,6 +396,7 @@ footer .logo {
 .address .transparent-address:focus {
   color: var(--accent-color);
 }
+
 
 /* portfolio */
 
